@@ -1,10 +1,14 @@
 html
 { 
+    min-width: 1200px;
+    background-color: cornsilk;
+    padding: 10px;
+    margin: 10px;
 }
 
-h1
+h3
 {
-	color: red;
+    color: crimson;
 }
 
 td
@@ -14,7 +18,8 @@ td
 
 .topMenu
 {
-    width: 1366px;
+    height: 45px;
+    background-color: darkred;
 }
 
 .topMenuItem
@@ -22,13 +27,43 @@ td
     background-color: crimson;
     text-align: center;
     padding: 10px;
+    margin: 5px;
     color: aliceblue;
     font-family: monospace;
-    border: 3px solid grey;
     display: inline-block;
+    border: 1px solid white;
     
     width: 17%;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.gameList
+{
+    background-color: beige;
+    border: 2px solid crimson;
+    padding: 5px;
+}
+
+.gameTitle
+{
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.gameItem
+{
+    margin: 2px;
+    display: inline-table;
+    min-width: 400px;
+    width: 31%;
+    
+    border: 1px solid red;
+}
+
+.imgContainer
+{
+    text-align: center;
 }
 
 .gameImg
@@ -36,5 +71,26 @@ td
     border: 2px solid black;
     max-width: 460px;
     max-width: 320px;
-    margin: 10px;
+}
+
+.gameDesc
+{
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: monospace;
+    
+}
+
+#resumo
+{
+    background-color:beige;
+    border: 2px solid crimson;
+    padding: 5px;
+}
+
+#contato
+{
+    background-color: beige;
+    border: 2px solid crimson;
+    padding: 5px;
 }
