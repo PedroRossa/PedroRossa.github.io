@@ -1,4 +1,38 @@
-﻿h1
+html
+{ 
+}
+
+h1
 {
 	color: red;
+}
+
+td
+{
+    border: 2px dashed blue;
+}
+
+.topMenu
+{
+    
+}
+
+.topMenuItem
+{
+    background-color: crimson;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    font-family: monospace;
+    
+    width: 150px;
+    border-radius: 10px;
+}
+
+.gameImg
+{
+    border: 2px solid black;
+    max-width: 460px;
+    max-width: 320px;
+    margin: 10px;
 }
