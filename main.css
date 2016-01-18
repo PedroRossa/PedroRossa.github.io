@@ -1,19 +1,9 @@
 html
 { 
-    min-width: 1200px;
+    min-width: 1300px;
     background-color: cornsilk;
     padding: 10px;
     margin: 10px;
-}
-
-h3
-{
-    color: crimson;
-}
-
-td
-{
-    border: 2px dashed blue;
 }
 
 .topMenu
@@ -35,6 +25,20 @@ td
     
     width: 17%;
     border-radius: 5px;
+}
+
+.subTitle
+{
+    background: crimson; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, crimson, cornsilk, cornsilk, cornsilk); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, crimson, cornsilk, cornsilk, cornsilk); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, crimson, cornsilk, cornsilk, cornsilk); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, crimson, cornsilk, cornsilk, cornsilk); /* Standard syntax */
+      
+    padding-left: 5px;
+    font-size: 26px;
+    font-family: serif;
+    color: aliceblue;
 }
 
 .gameList
