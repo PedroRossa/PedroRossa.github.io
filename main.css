@@ -49,6 +49,28 @@ html
     color: aliceblue;
 }
 
+#perfilImage 
+{
+    position: relative;
+    float: left;
+    max-width: 128px;
+    max-height: 128px;
+    border: 2px solid black;
+}
+
+#personalInfos 
+{
+    margin-left: 10px;
+	display: inline-block;  
+}
+
+#personalAbstract 
+{
+    padding:10px 0px 0px 10px;
+}
+
+
+
 .gameList
 {
     background-color: beige;
